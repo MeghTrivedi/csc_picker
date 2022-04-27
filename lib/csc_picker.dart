@@ -782,11 +782,11 @@ class CSCPickerState extends State<CSCPicker> {
                 children: <Widget>[
                   countryDropdown(),
                   SizedBox(
-                    height: 10.0,
+                    height: 16.0,
                   ),
                   stateDropdown(),
                   SizedBox(
-                    height: 10.0,
+                    height: 16.0,
                   ),
                   // cityDropdown()
                 ],
@@ -799,7 +799,7 @@ class CSCPickerState extends State<CSCPicker> {
                       Expanded(child: countryDropdown()),
                       widget.showStates
                           ? SizedBox(
-                              width: 10.0,
+                              width: 16.0,
                             )
                           : Container(),
                       widget.showStates
@@ -808,7 +808,7 @@ class CSCPickerState extends State<CSCPicker> {
                     ],
                   ),
                   SizedBox(
-                    height: 10.0,
+                    height: 16.0,
                   ),
                   // widget.showStates && widget.showCities
                   //     ? cityDropdown()
