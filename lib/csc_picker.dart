@@ -788,7 +788,7 @@ class CSCPickerState extends State<CSCPicker> {
                   SizedBox(
                     height: 10.0,
                   ),
-                  cityDropdown()
+                  // cityDropdown()
                 ],
               )
             : Column(
@@ -810,9 +810,9 @@ class CSCPickerState extends State<CSCPicker> {
                   SizedBox(
                     height: 10.0,
                   ),
-                  widget.showStates && widget.showCities
-                      ? cityDropdown()
-                      : Container()
+                  // widget.showStates && widget.showCities
+                  //     ? cityDropdown()
+                  //     : Container()
                 ],
               ),
       ],
